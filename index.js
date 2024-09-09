@@ -3,6 +3,7 @@
 import sayMyColor from "./color.js"
 import sayMyFavFood from "./food.js"
 
+
 let result = sayMyColor()
 console.log(result)
 
@@ -19,7 +20,7 @@ import { sayMyFavFood as femi, sayMyPet as steven } from "./food.js"
 
 // console.log(food, pet)
 
-import sayMyColor from "./color.js"
+import { sayMyColor, sayMyBrand } from "./color.js"
 import { sayMyFavFood, sayMyPet } from "./food.js"
 import sayMyCountry from "./country.js"
 
@@ -27,5 +28,6 @@ let color = sayMyColor()
 let food = sayMyFavFood()
 let pet = sayMyPet()
 let country = sayMyCountry()
+let brand = sayMyBrand()
 
-console.log(color, food, pet, country)
+console.log(color, food, pet, country, brand)
